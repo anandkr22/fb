@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 100px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.page-connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.connection-status {
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.connected {
+    background-color: #4caf50; /* Green color for connected */
+}
+
+.disconnected {
+    background-color: #f44336; /* Red color for disconnected */
+}
+
+.disconnect-btn, .connect-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
